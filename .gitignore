@@ -1,0 +1,5 @@
+# Track only settings.json and CLAUDE.md. Everything else is install/runtime state.
+*
+!.gitignore
+!settings.json
+!CLAUDE.md
