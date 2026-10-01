@@ -12,3 +12,6 @@ Do not compose a long deliverable (multi-section document, large table, complete
 
 ## Prose
 Remove all mannered prose. When a literal phrase is available, use it.
+
+## Artifacts
+Artifact pages (claude.ai/artifact links) serve me alone. Never put an artifact link or its content into a Jira ticket, a Confluence page, a commit, a repo doc or anything other people read.
