@@ -14,7 +14,7 @@
 - In a diff review (default: this branch against main), list only problems you'd block the merge for. Give the file and line, why it's wrong and how to show it fails. Mark what you couldn't confirm and say where you looked.
 
 ## Output
-- End every run with three headings:a Blocked on me, Changed, Found.
+- End every run with three headings: Blocked on me, Changed, Found.
 - Write a long deliverable (multi-section document, large table, complete code file) once, in the reply. Use reasoning only to settle its structure and hard decisions.
 - Artifact pages (claude.ai/artifact links) serve me alone. Never put an artifact link or its content into a Jira ticket, a Confluence page, a commit, a repo doc or anything else other people read.
 
