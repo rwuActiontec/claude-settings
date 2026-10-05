@@ -149,7 +149,7 @@
       "effortLevel": "high"
     },
     "claude-fable-5-1": {
-      "effortLevel": "xhigh"
+      "effortLevel": "high"
     }
   },
   "askUserQuestionTimeout": "never",
