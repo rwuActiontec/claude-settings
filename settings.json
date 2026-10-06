@@ -1,4 +1,18 @@
 {
+  "skillOverrides": {
+    "slide-maestro": "off",
+    "twg-agentic-search": "off",
+    "twg-artifacts": "off",
+    "twg-bench-lite": "off",
+    "twg-code-review": "off",
+    "twg-context-discovery": "off",
+    "twg-engineering-work": "off",
+    "twg-jira-resolve-merged-work": "off",
+    "twg-operational-health": "off",
+    "twg-responsibility-routing": "off",
+    "twg-space-creation": "off",
+    "twg-status-rollups": "off"
+  },
   "syncClaudeAiSkills": false,
   "env": {
     "CLAUDE_CODE_SUBAGENT_MODEL": "opus",
@@ -19,7 +33,7 @@
     ],
     "defaultMode": "auto"
   },
-  "model": "claude-fable-5-1",
+  "model": "opus",
   "hooks": {
     "UserPromptSubmit": [
       {
