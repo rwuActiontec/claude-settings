@@ -15,7 +15,9 @@
       "Bash(git fetch *)",
       "Bash(gh pr merge:*)",
       "Bash(twg confluence content update:*)",
-      "Bash(twg jira workitem comment update:*)"
+      "Bash(twg jira workitem comment update:*)",
+      "Bash(twg jira workitem *)",
+      "Bash(twg bb prs *)"
     ],
     "defaultMode": "auto"
   },
