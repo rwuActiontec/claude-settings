@@ -21,7 +21,7 @@
     ],
     "defaultMode": "auto"
   },
-  "model": "fable",
+  "model": "opus",
   "skillOverrides": {
     "slide-maestro": "off",
     "twg-agentic-search": "off",
@@ -145,7 +145,10 @@
     "mattpocock-skills@claude-plugins-official": true,
     "frontend-design@claude-plugins-official": true,
     "cc-plugin-you-should-know@builtin": true,
-    "cc-plugin-telemetry@builtin": false
+    "cc-plugin-telemetry@builtin": false,
+    "mcp-server-dev@anthropic-plugin-directory": true,
+    "hookify@anthropic-plugin-directory": true,
+    "plugin-dev@anthropic-plugin-directory": true
   },
   "extraKnownMarketplaces": {
     "claude-plugins-official": {
@@ -159,13 +162,20 @@
         "source": "github",
         "repo": "anthropics/skills"
       }
+    },
+    "trs-to-healthmatrix2": {
+      "source": {
+        "source": "directory",
+        "path": "/home/rwu/aiws/trs-to-healthmatrix2"
+      }
     }
   },
   "alwaysThinkingEnabled": true,
   "effortLevel": "high",
   "modelSettings": {
     "claude-opus-5-5": {
-      "effortLevel": "high"
+      "effortLevel": "high",
+      "autoCompactWindow": 300000
     },
     "claude-fable-5-1": {
       "effortLevel": "high"
