@@ -21,7 +21,7 @@
     ],
     "defaultMode": "auto"
   },
-  "model": "opus",
+  "model": "fable",
   "skillOverrides": {
     "slide-maestro": "off",
     "twg-agentic-search": "off",
@@ -34,7 +34,8 @@
     "twg-operational-health": "off",
     "twg-responsibility-routing": "off",
     "twg-space-creation": "off",
-    "twg-status-rollups": "off"
+    "twg-status-rollups": "off",
+    "twg-setup": "off"
   },
   "hooks": {
     "UserPromptSubmit": [
@@ -143,12 +144,8 @@
   },
   "enabledPlugins": {
     "mattpocock-skills@claude-plugins-official": true,
-    "frontend-design@claude-plugins-official": true,
     "cc-plugin-you-should-know@builtin": true,
-    "cc-plugin-telemetry@builtin": false,
-    "mcp-server-dev@anthropic-plugin-directory": true,
-    "hookify@anthropic-plugin-directory": true,
-    "plugin-dev@anthropic-plugin-directory": true
+    "cc-plugin-telemetry@builtin": false
   },
   "extraKnownMarketplaces": {
     "claude-plugins-official": {
@@ -178,6 +175,9 @@
       "autoCompactWindow": 300000
     },
     "claude-fable-5-1": {
+      "effortLevel": "high"
+    },
+    "claude-fable-5-2": {
       "effortLevel": "high"
     }
   },
