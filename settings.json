@@ -21,7 +21,7 @@
     ],
     "defaultMode": "auto"
   },
-  "model": "fable",
+  "model": "opus",
   "skillOverrides": {
     "slide-maestro": "off",
     "twg-agentic-search": "off",
@@ -143,9 +143,10 @@
     "command": "bash /home/rwu/.claude/statusline.sh"
   },
   "enabledPlugins": {
-    "mattpocock-skills@claude-plugins-official": true,
     "cc-plugin-you-should-know@builtin": true,
-    "cc-plugin-telemetry@builtin": false
+    "cc-plugin-telemetry@builtin": false,
+    "mattpocock-skills@mattpocock": true,
+    "next-steps@claude-community": true
   },
   "extraKnownMarketplaces": {
     "claude-plugins-official": {
@@ -164,6 +165,19 @@
       "source": {
         "source": "directory",
         "path": "/home/rwu/aiws/trs-to-healthmatrix2"
+      }
+    },
+    "mattpocock": {
+      "source": {
+        "source": "github",
+        "repo": "mattpocock/skills"
+      },
+      "autoUpdate": true
+    },
+    "claude-community": {
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-community"
       }
     }
   },
